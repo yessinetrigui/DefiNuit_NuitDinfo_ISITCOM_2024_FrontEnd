@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    background: url('capture.png') ;
+    background-size: cover;
+    color: white;
+  }
+  
+  header {
+    text-align: center;
+    background: #0000FF;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: red;
+    font-size: 24px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+    margin: 5px;
+    border: 2px ;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero h2 {
+    color: red;
+    font-size: 22px;
+  }
+  
+  .hero p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: yellow;
+  }
+  
+  .hero img {
+    width: 100%;
+  }
+  
+  .details {
+    background: #34495E;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .details img {
+    width: 150px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background : beige;
+    padding: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  footer form {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  footer label {
+    display:flex;
+    gap:20px;
+    margin: 10px 0 5px;
+  }
+  
+  footer input, footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+  
+  footer button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer img {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+  }
+  
