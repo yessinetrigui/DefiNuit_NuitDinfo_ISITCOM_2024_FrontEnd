@@ -1,14 +1,16 @@
-import React from 'react'
-import './index.css'
-import Home from './pages/Home/Home'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Chaos from './Chaos.jsx';
+import NotFound from './NotFound'; // Component for "/*" path
 
-
-
-export default function App() {
+function App() {
   return (
-    <div>
-      
-      <Home/>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/chaos" element={<Chaos />} />
+        <Route path="/*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
+
+export default App;
