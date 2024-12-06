@@ -1,5 +1,6 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Chaos from './Chaos.jsx';
+import Chaos from './Chaos';
 import NotFound from './NotFound'; // Component for "/*" path
 
 function App() {

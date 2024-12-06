@@ -1,9 +1,6 @@
-import React from 'react'
+import React from 'react';
 import './index.css'
-
-
-
-export default function NotFound() {
+ const NotFound = () => {
   return (
     <>
     <h1 className='text-8xl text-black'>NOTHING HEREEE x)</h1>
@@ -12,3 +9,4 @@ export default function NotFound() {
   )
 }
 
+export default NotFound;
