@@ -10,7 +10,6 @@ const Form = () => {
     setClickCount((prevCount) => {
       const newCount = prevCount + 1;
       let newText = 'send';
-
       if (newCount <= 4) {
         newText = newText
           .split('')
@@ -18,10 +17,9 @@ const Form = () => {
           .join('');
       } else if (newCount === 5) {
         newText = 'SEND SUREEE???!';
-        // Show a random image
          setImageSrc(ImagePath);
       } else {
-        return prevCount; // Prevent further clicks from changing state
+        return prevCount; 
       }
 
       setText(newText);
